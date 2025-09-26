@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Document is in english-->
+  <head>
+    <meta charset="UTF-8" />
+    <!--Page supports all characters-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Make it mobile friendly -->
+    <title>Profile button</title>
+    <!--Browser tab name -->
+    <style>
+      /* CSS part */
+      body {
+        font-family: Courier New, Courier New; /* Title list and list font*/
+        background: #060409; /*Body background*/
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 100vh;
+        margin: 0;
+        padding: 2rem;
+      }
+      .footer {
+        position: fixed;
+        bottom: 350px;
+        width: 100%;
+        text-align: center;
+      }
+      .footer-button {
+        background-color: #562e77;
+        color: #abd085;
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: bold;
+        transition: background 0.3s;
+      }
+      .time-button {
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: bold;
+        transition: background 0.3s;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Html body starts here -->
+
+    <time class="time-button" id="live-time"></time>
+
+    <script>
+      function updateTime() {
+        const now = new Date();
+        const timeElement = document.getElementById("live-time");
+
+        // Format for display (e.g., September 25, 2025 9:46 PM)
+        const options = {
+          year: "numeric",
+          month: "long",
+          day: "numeric",
+          hour: "numeric",
+          minute: "2-digit",
+          second: "2-digit",
+          hour12: true,
+        };
+        const formatted = now.toLocaleString("en-US", options);
+
+        // Update both the text and the datetime attribute
+        timeElement.textContent = formatted;
+        timeElement.setAttribute("datetime", now.toISOString());
+      }
+
+      // Update immediately, then every second
+      updateTime();
+      setInterval(updateTime, 1000);
+    </script>
+
+    <p class="footer">
+      <a
+        href="https://farcaster.xyz/marivel"
+        target="_blank"
+        class="footer-button"
+        >My profile
+      </a>
+    </p> 
+
+
+  </body>
+</html>
