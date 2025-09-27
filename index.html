@@ -84,8 +84,14 @@
         class="footer-button"
         >My profile
       </a>
-    </p> 
+    </p>
 
+    <script type="module">
+      import { sdk } from "https://esm.sh/@farcaster/miniapp-sdk";
 
+      window.addEventListener("DOMContentLoaded", async () => {
+        await sdk.actions.ready();
+      });
+    </script>
   </body>
 </html>
