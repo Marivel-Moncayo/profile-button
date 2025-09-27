@@ -1,13 +1,15 @@
 {
   "frame": {
-    "name": "Profile App for Mari",
+    "name": "Profile app for Mari",
     "version": "1",
     "iconUrl": "https://github.com/Marivel-Moncayo/profile-button/blob/main/farcaster_logo.png",
-    "homeUrl": "https://profile-name-mari.netlify.app/",
+    "homeUrl": "https://profile-name-mari.netlify.app",
+    "imageUrl": "https://profile-name-mari.netlify.app/image.png",
     "splashImageUrl": "https://github.com/Marivel-Moncayo/profile-button/blob/main/farcaster_logo.png",
     "splashBackgroundColor": "#000000",
-    "subtitle": "App that will link to my profile",
-    "description": "This is a simple app that will link to my profile",
+    "webhookUrl": "https://profile-name-mari.netlify.app/api/webhook",
+    "subtitle": "profile button",
+    "description": "This app will have button that will lead to my profile plus the time",
     "primaryCategory": "social"
   }
 }
