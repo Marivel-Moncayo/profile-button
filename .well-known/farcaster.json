@@ -4,15 +4,12 @@
     "version": "1",
     "iconUrl": "https://raw.githubusercontent.com/Marivel-Moncayo/todolist-website/refs/heads/main/farcaster_logo.png",
     "homeUrl": "https://profile-name-mari.netlify.app/",
+    "imageUrl": "https://https://profile-name-mari.netlify.app//image.png",
     "splashImageUrl": "https://raw.githubusercontent.com/Marivel-Moncayo/todolist-website/refs/heads/main/farcaster_logo.png",
     "splashBackgroundColor": "#000000",
-    "subtitle": "A link to my profile",
-    "description": "This app will have a button that will link to my profile plus the time in PST",
+    "webhookUrl": "https://profile-name-mari.netlify.app//api/webhook",
+    "subtitle": "App that will link to my profile",
+    "description": "This is a simple app that will link to my profile",
     "primaryCategory": "social"
-  },
-  "accountAssociation": {
-    "header": "",
-    "payload": "",
-    "signature": ""
   }
 }
