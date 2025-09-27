@@ -47,6 +47,13 @@
   </head>
   <body>
     <!--Html body starts here -->
+    <script type="module">
+      import { sdk } from "https://esm.sh/@farcaster/miniapp-sdk";
+
+      window.addEventListener("DOMContentLoaded", async () => {
+        await sdk.actions.ready();
+      });
+    </script>
 
     <time class="time-button" id="live-time"></time>
 
@@ -85,13 +92,5 @@
         >My profile
       </a>
     </p>
-
-    <script type="module">
-      import { sdk } from "https://esm.sh/@farcaster/miniapp-sdk";
-
-      window.addEventListener("DOMContentLoaded", async () => {
-        await sdk.actions.ready();
-      });
-    </script>
   </body>
 </html>
