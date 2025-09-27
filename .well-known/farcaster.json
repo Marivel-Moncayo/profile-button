@@ -1,20 +1,15 @@
 {
   "frame": {
-    "name": "Profile app for Mari",
+    "name": "Mari Profile App",
     "version": "1",
     "iconUrl": "https://github.com/Marivel-Moncayo/profile-button/blob/main/farcaster_logo.png",
-    "homeUrl": "https://profile-name-mari.netlify.app",
-    "imageUrl": "https://profile-name-mari.netlify.app/image.png",
+    "homeUrl": "https://mari-profile-button.netlify.app",
+    "imageUrl": "https://mari-profile-button.netlify.app/image.png",
     "splashImageUrl": "https://github.com/Marivel-Moncayo/profile-button/blob/main/farcaster_logo.png",
     "splashBackgroundColor": "#000000",
-    "webhookUrl": "https://profile-name-mari.netlify.app/api/webhook",
-    "subtitle": "button",
-    "description": "profile app",
+    "webhookUrl": "https://mari-profile-button.netlify.app/api/webhook",
+    "subtitle": "Button",
+    "description": "This app will have button that will lead to my profile plus the time",
     "primaryCategory": "social"
-  },
-  "accountAssociation": {
-    "header": "eyJmaWQiOjEzNDYwMTIsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHhBYTg3RTAwNzUyMjM5QzBGZmFmNkNlRTA1MDI0YjgxNjlkYUQxN0Q3In0",
-    "payload": "eyJkb21haW4iOiJwcm9maWxlLW5hbWUtbWFyaS5uZXRsaWZ5LmFwcCJ9",
-    "signature": "MHg0MmVkNDgwNjZjMGI2MWMwODYwZjM4YTYyZTM2MjY3MGU2MGMzMTIzOGU0MGY4YTU3MWQ0YjM5NzIwYjFhN2FkNzg5NmQxZDU5NDc3NmE3NWQ1NDA3YjQ2YzY3NDM3MzIwNmRhNTdmODE0NzkyNWI3ZjgyMWU2YjE1MjBlYWY3YzFj"
   }
 }
