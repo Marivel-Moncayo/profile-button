@@ -1,0 +1,15 @@
+{
+  "frame": {
+    "name": "Profile App for Mari",
+    "version": "1",
+    "iconUrl": "https://https://profile-name-mari.netlify.app//icon.png",
+    "homeUrl": "https://https://profile-name-mari.netlify.app/",
+    "imageUrl": "https://https://profile-name-mari.netlify.app//image.png",
+    "splashImageUrl": "https://https://profile-name-mari.netlify.app//splash.png",
+    "splashBackgroundColor": "#000000",
+    "webhookUrl": "https://https://profile-name-mari.netlify.app//api/webhook",
+    "subtitle": "A link to my profile",
+    "description": "This app will have a button that will link to my profile plus the time in PST",
+    "primaryCategory": "social"
+  }
+}
