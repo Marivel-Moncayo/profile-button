@@ -6,7 +6,6 @@
     "homeUrl": "https://profile-name-mari.netlify.app/",
     "splashImageUrl": "https://github.com/Marivel-Moncayo/profile-button/blob/main/farcaster_logo.png",
     "splashBackgroundColor": "#000000",
-    "webhookUrl": "https://profile-name-mari.netlify.app//api/webhook",
     "subtitle": "App that will link to my profile",
     "description": "This is a simple app that will link to my profile",
     "primaryCategory": "social"
