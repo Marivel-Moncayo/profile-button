@@ -3,10 +3,9 @@
     "name": "Profile App for Mari",
     "version": "1",
     "iconUrl": "https://raw.githubusercontent.com/Marivel-Moncayo/todolist-website/refs/heads/main/farcaster_logo.png",
-    "homeUrl": "https://https://profile-name-mari.netlify.app/",
+    "homeUrl": "https://profile-name-mari.netlify.app/",
     "splashImageUrl": "https://raw.githubusercontent.com/Marivel-Moncayo/todolist-website/refs/heads/main/farcaster_logo.png",
     "splashBackgroundColor": "#000000",
-    "webhookUrl": "https://https://profile-name-mari.netlify.app//api/webhook",
     "subtitle": "A link to my profile",
     "description": "This app will have a button that will link to my profile plus the time in PST",
     "primaryCategory": "social"
