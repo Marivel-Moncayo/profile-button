@@ -9,7 +9,7 @@
     "splashBackgroundColor": "#000000",
     "webhookUrl": "https://profile-name-mari.netlify.app/api/webhook",
     "subtitle": "profile button",
-    "description": "This app will have button that will lead to my profile plus the time",
+    "description": "profile app",
     "primaryCategory": "social"
   },
   "accountAssociation": {
