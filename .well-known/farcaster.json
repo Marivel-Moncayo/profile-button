@@ -2,10 +2,9 @@
   "frame": {
     "name": "Profile App for Mari",
     "version": "1",
-    "iconUrl": "https://raw.githubusercontent.com/Marivel-Moncayo/todolist-website/refs/heads/main/farcaster_logo.png",
+    "iconUrl": "https://github.com/Marivel-Moncayo/profile-button/blob/main/farcaster_logo.png",
     "homeUrl": "https://profile-name-mari.netlify.app/",
-    "imageUrl": "https://https://profile-name-mari.netlify.app//image.png",
-    "splashImageUrl": "https://raw.githubusercontent.com/Marivel-Moncayo/todolist-website/refs/heads/main/farcaster_logo.png",
+    "splashImageUrl": "https://github.com/Marivel-Moncayo/profile-button/blob/main/farcaster_logo.png",
     "splashBackgroundColor": "#000000",
     "webhookUrl": "https://profile-name-mari.netlify.app//api/webhook",
     "subtitle": "App that will link to my profile",
